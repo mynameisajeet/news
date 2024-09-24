@@ -1,0 +1,75 @@
+{
+    "sources": [
+      {
+        "id": "abp-news",
+        "name": "ABP News",
+        "description": "Your trusted source for breaking news.",
+        "url": "https://www.abplive.com/"
+      },
+      {
+        "id": "jagran",
+        "name": "Dainik Jagran",
+        "description": "Leading Hindi newspaper in India.",
+        "url": "https://www.jagran.com/"
+      },
+      {
+        "id": "bhaskar-news",
+        "name": "Dainik Bhaskar",
+        "description": "Leading Wensite newspaper in India.",
+        "url": "https://www.bhaskarhindi.com/"
+      },
+      
+      {
+        "id": "amar-ujala",
+        "name": "Amar Ujala",
+        "description": "Leading Hindi newspaper in India.",
+        "url": "https://www.amarujala.com/"
+      },
+      {
+        "id": "punjab-kesri",
+        "name": "Punjab Kesri",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://up.punjabkesari.in/"
+      },
+      {
+        "id": "dainik-nav-jyoti",
+        "name": "Dainik Nav Jyoti",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://dainiknavajyoti.com/"
+      },
+      {
+        "id": "rajasthan-patrika",
+        "name": "Rajasthan Patrika",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.patrika.com/"
+      },
+      {
+        "id": "current-affairs",
+        "name": "Current-Affairs",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.gktoday.in/"
+      },
+      {
+        "id": "editorial",
+        "name": "Drishti Editorial",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.drishtiias.com/hindi/daily-news-editorials"
+      },
+      
+      {
+        "id": "podcast-awaj",
+        "name": "Hindi Podcast",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.aawaz.com/"
+      },
+      {
+        "id": "kbc",
+        "name": "Kaun Banega Karorpati",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://mynameisajeet.github.io/KBC/"
+      }
+      
+      
+    ]
+  }
+  
