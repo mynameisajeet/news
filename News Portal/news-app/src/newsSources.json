@@ -56,17 +56,17 @@
         "url": "https://www.drishtiias.com/hindi/daily-news-editorials"
       },
       
-      {
-        "id": "podcast-awaj",
-        "name": "Hindi Podcast",
-        "description": "Leading Hindi Website in India.",
-        "url": "https://www.aawaz.com/"
-      },
-      {
+            {
         "id": "kbc",
         "name": "Kaun Banega Karorpati",
         "description": "Leading Hindi Website in India.",
         "url": "https://mynameisajeet.github.io/KBC/"
+      },
+      {
+        "id": "quotes",
+        "name": "Quote of Today",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://mynameisajeet.github.io/dailyquotes/"
       }
       
       

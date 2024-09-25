@@ -1,38 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import sourcesData from './newsSources.json'; // Your local JSON file
-import './App.css'; // Import your CSS file
+import React, { useState } from 'react';
+import NewsTab from './news';  // Import NewsTab component
+import MusicTab from './music'; // Import MusicTab component
 
-const NewsApp = () => {
-  const [selectedSource, setSelectedSource] = useState(sourcesData.sources[0]); // Default to first source
+const App = () => {
+  const [activeTab, setActiveTab] = useState('news');  // Default tab is "news"
 
-  const handleSourceChange = (e) => {
-    const sourceId = e.target.value;
-    const source = sourcesData.sources.find(s => s.id === sourceId);
-    setSelectedSource(source);
+  // Handle tab switching
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
   };
 
   return (
-    <div className="news-container">
-       <div className="developer-info">Developed by Ajeet Agarwal</div> {/* New section */}
-      <h1>News Sources</h1>
-      <select onChange={handleSourceChange} value={selectedSource.id} className="source-select">
-        {sourcesData.sources.map((source) => (
-          <option key={source.id} value={source.id}>
-            {source.name}
-          </option>
-        ))}
-      </select>
-      
-      <div className="webview-area">
-        <iframe 
-          src={selectedSource.url} 
-          title={selectedSource.name} 
-          className="webview" 
-          frameBorder="2"
-        />
+    <div>
+      <div className="tabs">
+        <div 
+          className={`tab ${activeTab === 'news' ? 'active' : ''}`} 
+          onClick={() => handleTabClick('news')}
+        >
+          News
+        </div>
+        <div 
+          className={`tab ${activeTab === 'music' ? 'active' : ''}`} 
+          onClick={() => handleTabClick('music')}
+        >
+          Music
+        </div>
       </div>
+
+      {/* Render the appropriate component based on the active tab */}
+      {activeTab === 'news' && <NewsTab />}
+      {activeTab === 'music' && <MusicTab />}
     </div>
   );
 };
 
-export default NewsApp;
+export default App;

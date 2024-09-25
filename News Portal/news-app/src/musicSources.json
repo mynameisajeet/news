@@ -1,0 +1,50 @@
+{
+    "sources": [
+          
+      {
+        "id": "fm",
+        "name": "FM Music",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://radiobarfi.com/"
+      },
+      {
+        "id": "jiosavan",
+        "name": "Hindi Music",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.jiosaavn.com/"
+      },
+      {
+        "id": "applemusic",
+        "name": "English Music",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://music.apple.com/us/new"
+      },
+      {
+        "id": "englishmusic",
+        "name": "English Music 2",
+        "description": "Leading Hindi Website in India.",
+        "url": "http://mysound.ge/welcome"
+      },
+      {
+        "id": "bhaktimusic",
+        "name": "Bhakti Sangeet",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://wynk.in/music/list/devotional/bb_1558070350345"
+      },
+      {
+        "id": "podcasthindi",
+        "name": "Hindi Podcast",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.podcasts-online.org/"
+      },
+      {
+        "id": "podcastenglish",
+        "name": "English Podcast",
+        "description": "Leading Hindi Website in India.",
+        "url": "https://www.playpodcast.net/"
+      }
+      
+      
+    ]
+  }
+  
