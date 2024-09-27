@@ -1,0 +1,14 @@
+.new-message-form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .new-message-input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .send-button {
+    padding: 10px;
+  }
+  

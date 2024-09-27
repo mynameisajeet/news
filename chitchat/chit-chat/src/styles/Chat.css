@@ -1,0 +1,96 @@
+.chat-app {
+  max-height: 800px; /* Set the height for the chat window */
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden; /* Hide overflow */
+}
+
+
+.header {
+  padding: 10px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  text-align: center; /* Center the text */
+  font-size: 1.5em; /* Increase font size */
+  font-weight: bold; /* Make it bold */
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  background-color: #e0f7fa;
+  position: relative;
+  word-wrap: break-word;
+  max-width: 80%;
+  align-self: flex-start; /* Messages align to the left by default */
+}
+
+.message.current-user {
+  background-color: #d1e7dd; /* Different background for the current user's message */
+  align-self: flex-end; /* Align current user's messages to the right */
+}
+
+.current-user {
+  justify-content: flex-end; /* Aligns to the right */
+}
+
+.other-user {
+  justify-content: flex-start; /* Aligns to the left */
+}
+.current-user .message {
+  background-color: #007bff;
+  color: white;
+}
+
+.messages-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  word-wrap: break-word; /* Ensure long words break into the next line */
+  word-break: break-word; /* For stubborn long words */
+}
+
+
+.message .user {
+  font-weight: bold; /* Bold user names */
+}
+
+
+
+.new-message-form {
+  display: flex;
+  margin-top: 10px;
+  border-top: 1px solid #ccc; /* Add a border at the top */
+  padding: 10px 0; /* Padding for spacing */
+  background-color: white; /* Background for the input area */
+}
+
+/* Style for the message box input */
+.new-message-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none; /* Prevent manual resizing */
+  max-height: 100px; /* Limit the height of the textarea */
+  overflow-y: auto; /* Allow scrolling for the textarea */
+}
+
+.send-button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
